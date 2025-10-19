@@ -2,128 +2,128 @@
 # Does not contain meta customizations because it is the homepage and config is already set in the config file
 
 banner:
-  title: 'An <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Astro</span> Starter <span class="text-secondary"> batteries-included</span>'
+  title: 'Impulsa tus ideas con <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Stay True</span> <span class="text-secondary">experiencias digitales</span>'
   title_size: "text-4xl md:text-6xl"
-  content: "A fully responsive astro starter repo, ideal for simple (yet laborious) content-driven pages or landings."  
+  content: "Somos una startup de desarrollo de software que crea soluciones web, mobile y desktop centradas en las personas. Construimos plataformas seguras, escalables y listas para crecer con tu negocio."
   image: /images/logo_v5_xl_pfp.webp
   buttons:
-    - label: Get the Code
-      href: "https://github.com/diego-alfadev/alfadev-astro-starter"
+    - label: Agenda una reunión
+      href: "mailto:hola@staytrue.dev"
       target: "_blank"
       icon: _GitHub
       addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
-  - title: Tired of writing the same code over and over again?
-    content: "We've all been there... Setting up the same SEO, theming, and responsive layout boilerplate again and again. Say goodbye to that! <b class='text-accent'>alfadev-astro-starter</b> lets you jump straight into creating, skipping the repetitive groundwork."
+  - title: Construimos software a la medida de tu visión
+    content: "Escuchamos tus necesidades y diseñamos cada proyecto con una estrategia clara. <b class='text-accent'>Stay True</b> combina metodologías ágiles y experiencia multidisciplinaria para lanzar productos que marcan la diferencia."
     image: /images/tired-of-writing.webp
 
-  - title: This is not a library
-    content: It's a <b class='text-accent'>ready-to-go template</b>. No steep learning curves or dozens of new dependencies. Just the essentials to build content-driven pages with ease.<br/>If you're familiar with <span class="text-accent font-bold">Astro</span>, you are good to go.
+  - title: Tecnología sin fricciones
+    content: Es un <b class='text-accent'>equipo estratégico</b> que te acompaña en todo el ciclo de vida digital. No heredamos complejidad innecesaria, priorizamos integraciones limpias y soporte continuo.<br/>Si ya cuentas con plataformas en producción, las potenciamos sin detener tu operación.
     image: /images/this-is-not-a-library.webp
 
-  - title: Optimized out of the box
-    content: Lightweight and fast. Packed with <span class="text-accent font-bold">Astro</span>, <span class="text-[#38bdf8] font-bold">tailwind</span> and <span class="text-[#e41c81] font-bold">Sass</span> goodness, so your pages load <b class='text-accent'>blazing fast</b>—right from the start. <br/> All the pages are configured in a way that are SEO-friendly and defined with markdown.
+  - title: Experiencias optimizadas en cada plataforma
+    content: Desarrollamos aplicaciones <span class="text-accent font-bold">web</span>, <span class="text-[#38bdf8] font-bold">mobile</span> y <span class="text-[#e41c81] font-bold">desktop</span> con componentes de alto rendimiento para ofrecer <b class='text-accent'>experiencias consistentes</b>. <br/> Configuramos CI/CD, analítica y SEO desde el día uno para acelerar tus lanzamientos.
     image: /images/optimized-out-of-the-box.webp
 
-  - title: Looks great, day or night
-    content: "With <b class='text-accent'>built-in dark theme support</b>, your site will look amazing no matter what time of day your users visit. Or what their eyes prefer.<br/> <br/>Forget convoluted theming systems. alfadev-astro-starter keeps it <b class='text-accent'>simple and extensible</b>, so you can focus on your design and let the code work fori you."
+  - title: Acompañamiento continuo
+    content: "Con <b class='text-accent'>soporte cercano</b>, tu producto evoluciona con cada feedback del mercado.<br/> <br/>Olvídate de procesos rígidos. Stay True mantiene todo <b class='text-accent'>simple y extensible</b>, para que te concentres en el crecimiento mientras nosotros construimos por ti."
     image: /images/loogs-good.webp
 
 
 ##key features
 features:
-  title: Why <span class="text-accent">alfadev-starter</span>?
-  description: Because every content-driven page needs a lot boilerplate to initialize, and **we provide you with the tools and guidelines** needed to focus on what's important.
+  title: ¿Por qué <span class="text-accent">Stay True</span>?
+  description: Diseñamos y construimos productos digitales end-to-end, brindando **herramientas y procesos** para que te concentres en entregar valor.
   feature_list:
     - icon: "box"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Simple
-      content: Avoid Complexity, small yet not useless. Loaded, but <b class="text-text">not overwhelming</b>.
+      title: Soluciones a medida
+      content: Identificamos oportunidades y definimos arquitecturas modulares para <b class="text-text">impulsar tu negocio</b>.
     - icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Up-to-date
-      content: Using the latest version and best practices of <span class="text-accent font-bold">Astro</span>, <span class="text-[#38bdf8] font-bold">tailwindcss</span> and <span class="text-[#e41c81] font-bold">Sass</span>
+      title: Entrega continua
+      content: Iteramos en sprints cortos con <b class="text-text">visibilidad total del progreso</b>.
     - icon: "search"  #icon package react-feather-icon [https://feathericons.com/]
-      title: SEO Friendly
-      content: Boost your site's visibility with <b class="text-text">built-in SEO optimizations</b>, including automatic sitemap generation using <a target='blank' href="https://docs.astro.build/es/guides/integrations-guide/sitemap/"><span class="text-accent font-bold underline">astrojs/sitemap</span></a>.
+      title: Visibilidad total
+      content: Medimos desempeño y calidad en cada lanzamiento para <b class="text-text">decisiones basadas en datos</b>.
     - icon: "plus"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Extendable
-      content: Add or change content just by <b class="text-text">editing markdown files</b>, so it stays in one place regardless of the code.
+      title: Integraciones flexibles
+      content: Conectamos sistemas existentes y nuevas APIs, permitiendo <b class="text-text">escalabilidad sin fricciones</b>.
     - icon: "coffee"  #icon package react-feather-icon [https://feathericons.com/]
-      title: "Focused"
-      content: Put you effort on what's important, not on small details. Dont worry about <span class="text-shadow-sm shadow-surface-contrast">***that damn shadow***</span>.
+      title: Equipo enfocado
+      content: Dedicamos especialistas para que inviertas <b class="text-text">tu tiempo en la estrategia</b>.
     - icon: "tool"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Customizable
-      content: Every corner of the page <b class="text-text">can be easily changed</b> to fit your needs.
+      title: Personalización total
+      content: Ajustamos cada detalle visual y funcional para que <b class="text-text">tu marca destaque</b>.
     - icon: "moon"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Dark Mode Support
-      content: Fully supports ***dark theme*** with an easy-to-extend theming system.
+      title: Experiencia multisistema
+      content: Garantizamos <b class="text-text">interfaz coherente</b> en modo claro y oscuro en todas las plataformas.
     - icon: "feather"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Lightweight
-      content: Fast and efficient. Every asset is optimized to ensure <b class="text-text">minimal load times</b>.
+      title: Rendimiento ligero
+      content: Optimizamos recursos, caching y despliegues para <b class="text-text">cargas ultrarrápidas</b>.
     - icon: "layers"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Modular
-      content: Built with ***reusable components*** that simplify adding or editing sections of the page.
+      title: Arquitectura modular
+      content: Reutilizamos componentes y librerías para <b class="text-text">acelerar nuevas funcionalidades</b>.
     - icon: "zap"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Performance-First
-      content: Designed with <b class="text-text">best-in-class performance</b> metrics to improve the user experience.
+      title: Calidad verificable
+      content: Automatizamos pruebas y monitoreo para <b class="text-text">productos confiables desde el día uno</b>.
     - icon: "layout"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Content-Centric
-      content: Focused on delivering content seamlessly, making it ideal for <b class="text-text">portfolios, showcases, or landing pages</b>.
+      title: Experiencias centradas en el usuario
+      content: Prototipamos y validamos flujos críticos para <b class="text-text">maximizar la adopción</b>.
     - icon: "code"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Developer-Friendly
-      content: Crafted for developers who value ***simplicity, flexibility, and modern*** tools.
-    
+      title: Colaboración transparente
+      content: Trabajamos en repositorios compartidos y documentación viva para <b class="text-text">decisiones informadas</b>.
+
 
 
 
 
 #testimonial
 testimonial:
-  title: Our adopters and their clients <ins>have nice things to say</ins> about us
-  description: Or they will, once they taste a drop of **what we've built**
+  title: Nuestros aliados y sus usuarios <ins>confían en Stay True</ins>
+  description: Historias reales de equipos que crecieron con soluciones hechas a la medida.
   testimonial_list:
-    - author: Jhon Doe
-      organization: Example Corp
+    - author: Laura Méndez
+      organization: Nexus Fintech
       rating: five
-      content: "I can't believe this testimonial is autogenerated! But hey, I’d still give it <b class='text-accent'>five stars</b>!"
-    - author: Jane D. Smith
-      organization: Acme Inc.
+      content: "Stay True convirtió nuestra idea en una plataforma financiera <b class='text-accent'>lista para escalar</b> en tiempo récord."
+    - author: Diego Serrano
+      organization: Pulse Health
       rating: four
-      content: "Doesn't matter if I exist or not, this project is <b class='text-accent'>truly fantastic</b>. Highly recommend!"
-    - author: Bob A. Nonymous
-      organization: FutureTech Labs
+      content: "Su equipo mobile integró historiales clínicos y analítica en una única app, manteniendo <b class='text-accent'>datos seguros</b>."
+    - author: Valeria Ortiz
+      organization: Nova Retail
       rating: five
-      content: "Wow, this is so good, I’d recommend it to all my imaginary friends."
-    - author: Alice Placeholder
-      organization: Startup Ipsum
-      rating: three
-      content: "If I were real, I’d definitely complain less. But it’s still pretty good!"
-    - author: Richard Fakenham
-      organization: Lorem Ipsum Ltd.
+      content: "Lanzamos nuestro e-commerce omnicanal con experiencias <b class='text-accent'>consistentes en cada pantalla</b>."
+    - author: Martín Ríos
+      organization: LogiTrack
       rating: five
-      content: "Astounding! Even for a made-up person like me, this template <b class='text-accent'>exceeds expectations</b>."
-    - author: Emily Mockson
-      organization: Phantom Co.
+      content: "Automatizaron la operación logística con dashboards desktop y alertas en tiempo real <b class='text-accent'>que ahorran horas</b>."
+    - author: Camila Villalba
+      organization: GreenGrid Energy
       rating: four
-      content: "No real user said this, but they should! Such a slick and modern experience."
-    - author: Alex Testworth
-      organization: AlphaBeta Agency
+      content: "Su equipo UI/UX nos ayudó a simplificar procesos complejos y <b class='text-accent'>mejorar la adopción</b> interna."
+    - author: Esteban Castillo
+      organization: Bright Learning
       rating: five
-      content: "Best autogenerated testimonial I’ve ever seen. 10/10 would fake it again."
-    - author: Chris Placeholder
+      content: "Implementaron analítica y personalización que elevó nuestro engagement educativo <b class='text-accent'>en un 40%</b>."
+    - author: Ana Beltrán
+      organization: Cívica Consultores
+      rating: five
+      content: "Co-creamos un portal ciudadano accesible y <b class='text-accent'>fácil de mantener</b> para nuestros equipos técnicos."
+    - author: Rodrigo Pineda
       # avatar: "/images/users/user-8.png"
-      organization: Ghost Design Studios
+      organization: Altus Media
       rating: four
-      content: "You don’t have to believe me, but you should believe in this product!"
+      content: "Su enfoque colaborativo permitió iterar campañas digitales con <b class='text-accent'>datos confiables</b> desde el primer sprint."
 
 
 ## Call to Action
 call_to_action:
-  title: "Because we love <span class='text-accent text-shadow-[0px_5px_15px]' >Astro</span> and <span class='text-[#38bdf8] text-shadow-[0px_5px_15px]'>Tailwind</span>."
-  description: "Save yourself some time (and sanity). Use this template and act like you planned everything from scratch. We won't tell. **Just be sure to leave a star, please.**"
-  button: 
-    label: "Grab the Starter"
-    href: "https://github.com/diego-alfadev/alfadev-astro-starter"
+  title: "Creemos en <span class='text-accent text-shadow-[0px_5px_15px]'>software</span> que impulsa <span class='text-[#38bdf8] text-shadow-[0px_5px_15px]'>negocios reales</span>."
+  description: "Conversemos sobre tu próximo lanzamiento. En Stay True alineamos estrategia, diseño y tecnología para crear productos memorables."
+  button:
+    label: "Agenda una sesión"
+    href: "mailto:hola@staytrue.dev"
     color: accent
 
 ---
