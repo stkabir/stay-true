@@ -10,7 +10,7 @@ banner:
     - label: Agenda una reunión
       href: "mailto:hola@staytrue.dev"
       target: "_blank"
-      icon: _GitHub
+      icon: _Mail
       addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
@@ -29,7 +29,6 @@ sections:
   - title: Acompañamiento continuo
     content: "Con <b class='text-accent'>soporte cercano</b>, tu producto evoluciona con cada feedback del mercado.<br/> <br/>Olvídate de procesos rígidos. Stay True mantiene todo <b class='text-accent'>simple y extensible</b>, para que te concentres en el crecimiento mientras nosotros construimos por ti."
     image: /images/loogs-good.webp
-
 
 ##key features
 features:
@@ -116,14 +115,42 @@ testimonial:
       rating: four
       content: "Su enfoque colaborativo permitió iterar campañas digitales con <b class='text-accent'>datos confiables</b> desde el primer sprint."
 
+## Pricing
+pricing:
+  title: "Planes que se ajustan a tu crecimiento"
+  plans:
+    - title: "Plan Básico"
+      price: '<span class="font-bold">$3,000 MXN al mes</span>'
+      description: "Para proyectos iniciales que requieren un equipo ágil y entregas continuas."
+      features:
+        - "Equipo ágil"
+        - "Entregas continuas"
+        - "Soporte cercano"
+    - title: "Plan Premium"
+      price: '<span class="text-[#38bdf8] font-bold">$5,700 MXN al mes</span>'
+      description: "Con soporte prioritario, optimizaciones proactivas y roadmap compartido."
+      features:
+        - "Soporte prioritario"
+        - "Optimizaciones proactivas"
+        - "Roadmap compartido"
+    - title: "Plan Personalizado"
+      price: "<span class='text-[#e41c81] font-bold'>Contáctanos</span>"
+      description: "Diseñado contigo para cubrir necesidades especiales de escalabilidad, seguridad o integraciones."
+      features:
+        - "Diseño contigo"
+        - "Escalabilidad"
+        - "Seguridad"
+        - "Integraciones"
+
 
 ## Call to Action
 call_to_action:
   title: "Creemos en <span class='text-accent text-shadow-[0px_5px_15px]'>software</span> que impulsa <span class='text-[#38bdf8] text-shadow-[0px_5px_15px]'>negocios reales</span>."
   description: "Conversemos sobre tu próximo lanzamiento. En Stay True alineamos estrategia, diseño y tecnología para crear productos memorables."
   button:
-    label: "Agenda una sesión"
+    label: "Agenda una reunión"
     href: "mailto:hola@staytrue.dev"
     color: accent
+    icon: _Mail
 
 ---

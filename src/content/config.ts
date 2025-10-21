@@ -25,6 +25,17 @@ const indexSchema = z.intersection(
         }),
       ),
     }),
+    pricing: z.object({
+      title: z.string(),
+      plans: z.array(
+        z.object({
+          title: z.string(),
+          price: z.string(),
+          description: z.string(),
+          features: z.array(z.string()),
+        }),
+      ),
+    }),
     testimonial: z.custom<Testimonial>(),
     call_to_action: z.object({
       title: z.string(),

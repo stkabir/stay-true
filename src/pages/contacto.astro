@@ -26,25 +26,25 @@ const { contact_form_action } = config.params;
             method="POST"
           >
             <div class="form-group mb-5">
-              <label class="form-label" for="name">Full Name</label>
+              <label class="form-label" for="name">Nombre completo</label>
               <input
                 class="form-control"
                 type="text"
                 id="name"
-                placeholder="Your Full Name"
+                placeholder="Nombre completo"
               />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="eamil">Email Adrdess</label>
+              <label class="form-label" for="eamil">Email</label>
               <input
                 class="form-control"
                 type="text"
                 id="email"
-                placeholder="Your  Email Address"
+                placeholder="Email"
               />
             </div>
-            <div class="form-group mb-5">
-              <label class="form-label" for="reason">Reason/Purpose</label>
+            <!-- <div class="form-group mb-5">
+              <label class="form-label" for="reason">Motivo</label>
               <select name="reason" id="reason" class="form-select" required>
                 <option value="">Select reason/purpose</option>
                 <option value="hello">Wanted to say hello</option>
@@ -53,9 +53,9 @@ const { contact_form_action } = config.params;
                 <option value="investment plane-3">There's a project I want to discuss with you</option>
                 <option value="investment plane-3">Other</option>
               </select>
-            </div>
+            </div> -->
             <div class="form-group mb-5">
-              <label class="form-label" for="message">Message Here</label>
+              <label class="form-label" for="message">Mensaje</label>
               <textarea
                 class="form-control h-[150px]"
                 id="message"
@@ -65,7 +65,7 @@ const { contact_form_action } = config.params;
             <input
               class="btn-primary block w-full"
               type="submit"
-              value="Send Message"
+              value="Enviar"
               onclick="alert('This form is not functional. Please use the email address provided in the footer to contact me.')"
             />
           </form>

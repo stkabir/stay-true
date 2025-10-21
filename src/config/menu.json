@@ -1,25 +1,25 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Inicio",
       "url": "/"
     },
     {
-      "name": "Features",
-      "url": "/features"
+      "name": "Servicios",
+      "url": "/servicios"
     },
     {
-      "name": "Theme",
-      "url": "/theme"
+      "name": "Contacto",
+      "url": "/contacto"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Nosotros",
+      "url": "/nosotros"
     },
     {
-      "name": "Pages",
+      "name": "",
       "url": "",
-      "hasChildren": true,
+      "hasChildren": false,
       "children": [
         {
           "name": "Changelog",
@@ -56,12 +56,12 @@
 
   "footer": [
     {
-      "name": "About",
+      "name": "Nosotros",
       "url": "/about"
     },
     {
-      "name": "Changelog",
-      "url": "/changelog"
+      "name": "Servicios",
+      "url": "/servicios"
     }
   ]
 }

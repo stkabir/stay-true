@@ -15,16 +15,18 @@ const TestimonialSlider = ({ list }) => {
   return (
     <div className="reviews-carousel relative">
       <Swiper
+        autoplay={{
+          delay: 4000,
+        }}
         pagination={{
           type: "bullets",
-          el: paginationRef.current,
           clickable: true,
           dynamicBullets: true,
         }}
         onSwiper={(swiper) => {
           setSwiper(swiper);
         }}
-        // loop={true}
+        loop={true}
         modules={[Pagination, Autoplay]}
         slidesPerView={1}
         breakpoints={{
@@ -35,6 +37,11 @@ const TestimonialSlider = ({ list }) => {
             slidesPerView: 3,
           },
         }}
+      style={{
+        "--swiper-pagination-color": "#38bdf8",
+        "--swiper-pagination-bullet-inactive-color": "#38bdf8",
+        "--swiper-pagination-bullet-inactive-opacity": "0.5",
+      }}
       >
         {list.map((item, i) => (
           <SwiperSlide key={"feature-" + i}>
