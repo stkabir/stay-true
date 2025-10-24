@@ -11,7 +11,7 @@ banner:
       href: "mailto:hola@staytrue.dev"
       target: "_blank"
       icon: _Mail
-      addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
+      addClasses: "w-full bg-transparent text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
   - title: Construimos software a la medida de tu visión
