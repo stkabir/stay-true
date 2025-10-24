@@ -5,7 +5,7 @@ banner:
   title: 'Impulsa tus ideas con <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Stay True</span> <span class="text-secondary">experiencias digitales</span>'
   title_size: "text-4xl md:text-6xl"
   content: "Somos una startup de desarrollo de software que crea soluciones web, mobile y desktop centradas en las personas. Construimos plataformas seguras, escalables y listas para crecer con tu negocio."
-  image: /images/logo_v5_xl_pfp.webp
+  image: /images/astronaut.png
   buttons:
     - label: Agenda una reunión
       href: "mailto:hola@staytrue.dev"
